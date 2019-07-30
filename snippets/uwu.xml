@@ -17,10 +17,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="platform_build_blueprint" groups="pdk,tradefed" remote="uwuAOSP" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" remote="uwuAOSP">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-   </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed,sysui-studio" remote="uwuAOSP" />
    <project path="external/runa" name="platform_external_runa" remote="uwuAOSP" />
    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
    <project path="external/leptonica" name="platform_external_leptonica" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
