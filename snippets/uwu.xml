@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/chromium-webview" path="external/chromium-webview" optional="true" />
+  <project path="external/chromium-webview/patches" remote="lineageos" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main">
+    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+</manifest>

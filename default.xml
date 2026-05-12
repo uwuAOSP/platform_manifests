@@ -3,12 +3,14 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
+	   review="https://android-review.googlesource.com/" 
+	   clone-depth="1" />
 
   <remote  name="lineageos"
            fetch=".."
            revision="refs/heads/lineage-23.2"
-           review="review.lineageos.org" />
+	   review="review.lineageos.org" 
+	   clone-depth="1" />
 
   <remote  name="github"
            fetch=".."
@@ -21,7 +23,8 @@
 
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
-           sync-j="4" />
+	   sync-j="4" 
+	   clone-depth="1" />
 
   <contactinfo bugurl="go/repo-bug" />
 
@@ -1059,5 +1062,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+  <include name="snippets/uwu.xml" />
 
 </manifest>
