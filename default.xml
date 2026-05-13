@@ -17,6 +17,10 @@
            revision="refs/heads/sixteen-qpr2"
            review="review.pixelos.net" />
 
+  <remote  name="uwuAOSP"
+           fetch="https://github.com"
+           revision="refs/heads/uwu-16.2" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com/"
            revision="sixteen-qpr2" />

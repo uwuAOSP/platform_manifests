@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/external/chromium-webview" path="external/chromium-webview" optional="true" />
+  <remove-project name="PixelOS-AOSP/android_bootable_recovery" />
+  <remove-project name="PixelOS-AOSP/android_build_soong" />
+  <remove-project name="PixelOS-AOSP/android_device_custom_sepolicy" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_base" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_native" />
+  <remove-project name="PixelOS-AOSP/android_frameworks_opt_telephony" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="PixelOS-AOSP/android_system_core" />
+  <remove-project name="PixelOS-AOSP/android_system_security" />
+  <remove-project name="PixelOS-AOSP/android_system_sepolicy" />
+  <remove-project name="PixelOS-AOSP/android_vendor_custom" />
+  <remove-project name="PixelOS-AOSP/proprietary_vendor_pixel_clocks" />
+
+  <project path="bootable/recovery" name="uwuAOSP/platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
+  <project path="build/soong" name="uwuAOSP/platform_build_soong" groups="pdk,tradefed,sysui-studio" remote="uwuAOSP">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/custom/sepolicy" name="uwuAOSP/platform_device_custom_sepolicy" remote="uwuAOSP" />
   <project path="external/chromium-webview/patches" remote="lineageos" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main">
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
@@ -9,4 +30,19 @@
   <project path="external/chromium-webview/prebuilt/arm64" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+  <project path="frameworks/base" name="uwuAOSP/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
+  <project path="frameworks/native" name="uwuAOSP/platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
+  <project path="frameworks/opt/telephony" name="uwuAOSP/platform_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="uwuAOSP" />
+  <project path="packages/apps/Launcher3" name="uwuAOSP/platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="uwuAOSP" />
+  <project path="packages/apps/Settings" name="uwuAOSP/platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="uwuAOSP" />
+  <project path="packages/apps/ThemePicker" name="uwuAOSP/platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
+  <project path="system/core" name="uwuAOSP/platform_system_core" groups="pdk" remote="uwuAOSP" />
+  <project path="system/security" name="uwuAOSP/platform_system_security" groups="pdk" remote="uwuAOSP" />
+  <project path="system/sepolicy" name="uwuAOSP/platform_system_sepolicy" groups="pdk" remote="uwuAOSP" />
+  <project path="vendor/custom" name="uwuAOSP/platform_vendor_custom" remote="uwuAOSP" />
+  <project path="vendor/pixel/clocks" name="uwuAOSP/platform_vendor_pixel_clocks" remote="uwuAOSP" />
+
+  <project path="packages/apps/LyricFetchExt" name="uwuAOSP/platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
+  <project path="packages/apps/uwuClocks" name="uwuAOSP/platform_packages_apps_uwuClocks" remote="uwuAOSP" />
+  <project path="packages/apps/uwuSettingsExt" name="uwuAOSP/platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
 </manifest>
