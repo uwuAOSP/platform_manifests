@@ -10,6 +10,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="PixelOS-AOSP/android_system_core" />
   <remove-project name="PixelOS-AOSP/android_system_security" />
   <remove-project name="PixelOS-AOSP/android_system_sepolicy" />
@@ -36,6 +37,7 @@
   <project path="packages/apps/Launcher3" name="uwuAOSP/platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="uwuAOSP" />
   <project path="packages/apps/Settings" name="uwuAOSP/platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="uwuAOSP" />
   <project path="packages/apps/ThemePicker" name="uwuAOSP/platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
+  <project path="packages/apps/WallpaperPicker2" name="uwuAOSP/platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
   <project path="system/core" name="uwuAOSP/platform_system_core" groups="pdk" remote="uwuAOSP" />
   <project path="system/security" name="uwuAOSP/platform_system_security" groups="pdk" remote="uwuAOSP" />
   <project path="system/sepolicy" name="uwuAOSP/platform_system_sepolicy" groups="pdk" remote="uwuAOSP" />
