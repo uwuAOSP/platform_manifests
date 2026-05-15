@@ -16,6 +16,7 @@
   <remove-project name="PixelOS-AOSP/android_system_sepolicy" />
   <remove-project name="PixelOS-AOSP/android_vendor_custom" />
   <remove-project name="PixelOS-AOSP/proprietary_vendor_pixel_clocks" />
+  <remove-project name="PixelOS-AOSP/proprietary_vendor_pixel_themepicker" />
 
   <project path="bootable/recovery" name="uwuAOSP/platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
   <project path="build/soong" name="uwuAOSP/platform_build_soong" groups="pdk,tradefed,sysui-studio" remote="uwuAOSP">
@@ -43,6 +44,7 @@
   <project path="system/sepolicy" name="uwuAOSP/platform_system_sepolicy" groups="pdk" remote="uwuAOSP" />
   <project path="vendor/custom" name="uwuAOSP/platform_vendor_custom" remote="uwuAOSP" />
   <project path="vendor/pixel/clocks" name="uwuAOSP/platform_vendor_pixel_clocks" remote="uwuAOSP" />
+  <project path="vendor/pixel/themepicker" name="uwuAOSP/platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 
   <project path="packages/apps/LyricFetchExt" name="uwuAOSP/platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
   <project path="packages/apps/uwuClocks" name="uwuAOSP/platform_packages_apps_uwuClocks" remote="uwuAOSP" />
