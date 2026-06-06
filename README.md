@@ -1,41 +1,34 @@
-# PixelOS
+# uwuAOSP
 
-## Getting Started
+## Downloading:
 
-To get started with the PixelOS source code, you'll need to be
-familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
-
-To initialize your local repository, run:
+1. Initialize:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
+repo init -u https://github.com/uwuAOSP/platform_manifests.git -b uwu-16.2 --git-lfs
 ```
 
-Then, sync the repository:
+2. Sync:
 
 ```bash
 repo sync
 ```
 
-## Building the System
+## Building
 
-Initialize the ROM build environment by sourcing the envsetup.sh script:
+1. Setup environment:
 
 ```bash
 source build/envsetup.sh
 ```
 
-After cloning the device-specific sources, use breakfast to configure the build for your device:
-
+2. lunch device:
 ```bash
-breakfast devicecodename
+lunch custom_devicecode-bp4a-user
 ```
 
-Start the compilation:
+3. Build the package:
 
 ```bash
-m pixelos
+m uwu
 ```
-
-## Submitting Patches
-Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).
