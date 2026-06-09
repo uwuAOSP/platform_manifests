@@ -16,6 +16,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjxl" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/rust/android-crates-io" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zstd" />
   <remove-project name="platform/frameworks/av" />
