@@ -52,4 +52,6 @@
   <project path="packages/apps/uwuClocks" name="uwuAOSP/platform_packages_apps_uwuClocks" remote="uwuAOSP" />
   <project path="packages/apps/uwuSettingsExt" name="uwuAOSP/platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
   <project path="packages/apps/uwuSystemUI" name="uwuAOSP/platform_packages_apps_uwuSystemUI" remote="uwuAOSP" />
+
+  <project path="uwu-sdk" name="uwuAOSP/platform_uwu-sdk" remote="uwuAOSP" />
 </manifest>
