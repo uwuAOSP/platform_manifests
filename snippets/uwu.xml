@@ -47,6 +47,7 @@
   <project path="vendor/pixel/clocks" name="uwuAOSP/platform_vendor_pixel_clocks" remote="uwuAOSP" />
   <project path="vendor/pixel/themepicker" name="uwuAOSP/platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 
+  <project path="packages/apps/CatShare" name="uwuAOSP/platform_packages_apps_CatShare" remote="uwuAOSP" />
   <project path="packages/apps/LyricFetchExt" name="uwuAOSP/platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
   <project path="packages/apps/Smartspacer" name="uwuAOSP/platform_packages_apps_Smartspacer" remote="uwuAOSP" />
   <project path="packages/apps/uwuClocks" name="uwuAOSP/platform_packages_apps_uwuClocks" remote="uwuAOSP" />
