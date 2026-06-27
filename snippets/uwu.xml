@@ -34,6 +34,7 @@
   <project path="external/chromium-webview/prebuilt/x86_64" remote="lineageos" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
   <project path="external/rust/android-crates-io" name="uwuAOSP/platform_external_rust_android-crates-io" groups="pdk" remote="uwuAOSP" />
   <project path="external/llama" name="uwuAOSP/platform_external_llama" remote="uwuAOSP" />
+  <project path="external/llama-generated-dep" name="uwuAOSP/platform_external_llama-generated-dep" remote="uwuAOSP" />
 
   <project path="frameworks/base" name="uwuAOSP/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
   <project path="frameworks/native" name="uwuAOSP/platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
