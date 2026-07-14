@@ -47,6 +47,7 @@
   <project path="system/security" name="uwuAOSP/platform_system_security" groups="pdk" remote="uwuAOSP" />
   <project path="system/sepolicy" name="uwuAOSP/platform_system_sepolicy" groups="pdk" remote="uwuAOSP" />
   <project path="vendor/custom" name="uwuAOSP/platform_vendor_custom" remote="uwuAOSP" />
+  <project path="vendor/uwu-prebuilts" name="uwuAOSP/platform_vendor_uwu-prebuilts" remote="uwuAOSP" />
   <project path="vendor/pixel/clocks" name="uwuAOSP/platform_vendor_pixel_clocks" remote="uwuAOSP" />
   <project path="vendor/pixel/themepicker" name="uwuAOSP/platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 
