@@ -8,6 +8,7 @@
   <remove-project name="PixelOS-AOSP/android_frameworks_base" />
   <remove-project name="PixelOS-AOSP/android_frameworks_native" />
   <remove-project name="PixelOS-AOSP/android_frameworks_opt_telephony" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="PixelOS-AOSP/android_packages_apps_Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
@@ -40,6 +41,7 @@
   <project path="frameworks/base" name="uwuAOSP/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
   <project path="frameworks/native" name="uwuAOSP/platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
   <project path="frameworks/opt/telephony" name="uwuAOSP/platform_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="uwuAOSP" />
+  <project path="packages/apps/Launcher3" name="uwuAOSP/platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="uwuAOSP" />
   <project path="packages/apps/Settings" name="uwuAOSP/platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="uwuAOSP" />
   <project path="packages/apps/ThemePicker" name="uwuAOSP/platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
   <project path="packages/apps/WallpaperPicker2" name="uwuAOSP/platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
