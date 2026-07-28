@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="uwuAOSP"
+	   fetch="https://github.com/uwuAOSP"
+	   revision="refs/heads/uwu-17.0" />
+   
+   <project path="vendor/uwu" name="platform_vendor_uwu" remote="uwuAOSP" />
+</manifest>
+
+
