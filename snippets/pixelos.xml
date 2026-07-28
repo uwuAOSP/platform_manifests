@@ -40,11 +40,8 @@
   <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
-  <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
   <project path="packages/apps/Settings" name="PixelOS-AOSP/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
-  <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
-  <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Bluetooth" name="PixelOS-AOSP/android_packages_modules_Bluetooth" groups="pdk" remote="github" />
   <project path="packages/modules/common" name="PixelOS-AOSP/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="github" />
