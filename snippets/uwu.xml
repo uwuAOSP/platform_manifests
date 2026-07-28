@@ -54,6 +54,7 @@
   <project path="vendor/pixel/themepicker" name="uwuAOSP/platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 
   <project path="packages/apps/CatShare" name="uwuAOSP/platform_packages_apps_CatShare" remote="uwuAOSP" />
+  <project path="packages/apps/ColumbusService" name="uwuAOSP/platform_packages_apps_ColumbusService" remote="uwuAOSP" />
   <project path="packages/apps/LyricFetchExt" name="uwuAOSP/platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
   <project path="packages/apps/Smartspacer" name="uwuAOSP/platform_packages_apps_Smartspacer" remote="uwuAOSP" />
   <project path="packages/apps/uwuAICore" name="uwuAOSP/platform_packages_apps_uwuAICore" remote="uwuAOSP" />
