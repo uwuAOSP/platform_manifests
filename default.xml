@@ -1135,5 +1135,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelos.xml" />
+  <include name="snippets/uwu.xml" />
 
 </manifest>
