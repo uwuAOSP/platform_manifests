@@ -18,6 +18,8 @@
    </project>
    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
    <project path="device/uwu/sepolicy" name="platform_device_uwu_sepolicy" remote="uwuAOSP" />
+   <project path="external/llama" name="platform_external_llama" remote="uwuAOSP" />
+   <project path="external/llama-generated-dep" name="platform_external_llama-generated-dep" remote="uwuAOSP" />
    <project path="frameworks/av" name="platform_frameworks_av" groups="pdk,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
@@ -27,5 +29,16 @@
    <project path="system/security" name="platform_system_security" groups="pdk" remote="uwuAOSP" />
    <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="uwuAOSP" />
    <project path="vendor/uwu" name="platform_vendor_uwu" remote="uwuAOSP" />
+   <project path="vendor/uwu-prebuilts" name="platform_vendor_uwu-prebuilts" remote="uwuAOSP" />
+   <project path="uwu-sdk" name="platform_uwu-sdk" remote="uwuAOSP" />
+
+   <project path="packages/apps/CatShare" name="platform_packages_apps_CatShare" remote="uwuAOSP" />
+   <project path="packages/apps/ColumbusService" name="platform_packages_apps_ColumbusService" remote="uwuAOSP" />
+   <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
+   <project path="packages/apps/Smartspacer" name="platform_packages_apps_Smartspacer" remote="uwuAOSP" />
+   <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
+   <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
+   <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
+   <project path="packages/apps/uwuSystemUI" name="platform_packages_apps_uwuSystemUI" remote="uwuAOSP" />
 </manifest>
 
