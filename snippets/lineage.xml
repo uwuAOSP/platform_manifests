@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS additions -->
+  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" remote="lineageos" revision="refs/changes/28/490428/1" />
+  <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" remote="lineageos" />
+  <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="lineageos" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineageos" />
+  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" remote="lineageos" revision="refs/changes/72/490572/1" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineageos" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineageos" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineageos" />
+  <project path="external/libjxl" name="LineageOS/android_external_libjxl" groups="pdk" remote="lineageos" revision="refs/changes/98/490598/1" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineageos" />
+  <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="lineageos" />
   <project path="external/bash" name="LineageOS/android_external_bash" revision="lineage-23.2" remote="lineageos" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineageos" >
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
@@ -18,17 +28,34 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" revision="lineage-23.2" remote="lineageos" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" revision="lineage-23.2" remote="lineageos" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" revision="lineage-23.2" remote="lineageos" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineageos" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" revision="lineage-23.2" remote="lineageos" />
   <project path="external/vim" name="LineageOS/android_external_vim" revision="lineage-23.2" remote="lineageos" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineageos" revision="refs/changes/87/490687/1" />
+  <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="lineageos" />
+  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineageos" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineageos" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineageos" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" remote="lineageos" />
+  <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineageos" revision="lineage-23.2" />
+  <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="lineageos" />
   <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" remote="lineageos" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.2" remote="lineageos" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="lineage-23.2" remote="lineageos" />
+  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="lineageos" />
+  <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="lineageos" revision="refs/changes/10/490810/1" />
+  <project path="packages/services/DeviceAsWebcam" name="LineageOS/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="lineageos" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-23.2" remote="lineageos" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineageos" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineageos" />
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" remote="lineageos" />
+  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineageos" />
+  <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" remote="lineageos" revision="refs/changes/48/490848/1" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineageos" />
+  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="lineageos" />
+  <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineageos" />
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineageos" revision="refs/changes/03/490903/2" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineageos" revision="refs/changes/34/490934/1" />
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" remote="lineageos" />
