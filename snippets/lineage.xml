@@ -64,6 +64,7 @@
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="lineageos" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineageos" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineageos" revision="refs/changes/99/490899/4" />
+  <project path="system/memory/libion" name="LineageOS/android_system_memory_libion" groups="pdk" remote="lineageos" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineageos" revision="refs/changes/34/490934/1" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineageos" revision="refs/changes/49/490949/7" />
   <!-- Legacy AOSP additions -->
