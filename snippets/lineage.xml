@@ -60,6 +60,7 @@
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineageos" />
   <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" remote="lineageos" revision="refs/changes/48/490848/1" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineageos" />
+  <project path="system/fs/fs_mgr" name="LineageOS/android_system_fs_fs_mgr" groups="pdk" remote="lineageos" revision="refs/changes/02/494302/6" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="lineageos" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineageos" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineageos" revision="refs/changes/99/490899/4" />
