@@ -40,5 +40,9 @@
    <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
    <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
    <project path="packages/apps/uwuSystemUI" name="platform_packages_apps_uwuSystemUI" remote="uwuAOSP" />
+
+   <!-- GMS -->
+   <project path="vendor/pixel/clocks" name="platform_vendor_pixel_clocks" remote="uwuAOSP" />
+   <project path="vendor/pixel/themepicker" name="platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 </manifest>
 
