@@ -52,6 +52,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/Provision" />
+  <remove-project name="platform/packages/apps/QuickAccessWallet" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SpareParts" />
