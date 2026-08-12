@@ -17,9 +17,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
    </project>
    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
-   <project path="device/uwu/sepolicy" name="platform_device_uwu_sepolicy" remote="uwuAOSP" />
-   <project path="external/llama" name="platform_external_llama" remote="uwuAOSP" />
-   <project path="external/llama-generated-dep" name="platform_external_llama-generated-dep" remote="uwuAOSP" />
+    <project path="device/uwu/sepolicy" name="platform_device_uwu_sepolicy" remote="uwuAOSP" />
+    <project path="external/leptonica" name="platform_external_leptonica" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
+    <project path="external/llama" name="platform_external_llama" remote="uwuAOSP" />
+    <project path="external/llama-generated-dep" name="platform_external_llama-generated-dep" remote="uwuAOSP" />
+    <project path="external/tesseract" name="platform_external_tesseract" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
    <project path="frameworks/av" name="platform_frameworks_av" groups="pdk,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
@@ -36,13 +38,13 @@
    <project path="packages/apps/ColumbusService" name="platform_packages_apps_ColumbusService" remote="uwuAOSP" />
    <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
    <project path="packages/apps/Smartspacer" name="platform_packages_apps_Smartspacer" remote="uwuAOSP" />
-   <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
-   <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
-   <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
+    <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
+    <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
+    <project path="packages/apps/uwuPrism" name="platform_packages_apps_uwuPrism" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
+    <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
    <project path="packages/apps/uwuSystemUI" name="platform_packages_apps_uwuSystemUI" remote="uwuAOSP" />
 
    <!-- GMS -->
    <project path="vendor/pixel/clocks" name="platform_vendor_pixel_clocks" remote="uwuAOSP" />
    <project path="vendor/pixel/themepicker" name="platform_vendor_pixel_themepicker" remote="uwuAOSP" />
 </manifest>
-
