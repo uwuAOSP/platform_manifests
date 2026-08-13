@@ -13,7 +13,7 @@ repo init -u https://github.com/uwuAOSP/platform_manifests.git -b uwu-17.0 --git
 repo sync -c -j$(nproc --all) --force-sync --force-checkout --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
-3. Build
+3. Setup environment
 
 ```bash
 source build/envsetup.sh
@@ -23,11 +23,13 @@ source build/envsetup.sh
 lunch uwu_devicecode-cp2a-userdebug
 ```
 
+4. Build
+
 ```bash
 m
 ```
 
-Or build a OTA package:
+Or build an OTA package:
 
 ```bash
 m otapackage
