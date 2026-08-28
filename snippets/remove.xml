@@ -59,6 +59,7 @@
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/StorageManager" />
   <remove-project name="platform/packages/apps/Tag" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />

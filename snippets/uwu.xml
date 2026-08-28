@@ -45,6 +45,7 @@
    <project path="packages/apps/ColumbusService" name="platform_packages_apps_ColumbusService" remote="uwuAOSP" />
    <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="uwuAOSP" />
+   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
    <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
    <project path="packages/apps/uwuPrism" name="platform_packages_apps_uwuPrism" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
