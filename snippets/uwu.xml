@@ -22,7 +22,6 @@
    </project>
    <project path="external/ninja" name="platform_external_ninja" remote="uwuAOSP" />
    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
-   <project path="device/uwu/sepolicy" name="platform_device_uwu_sepolicy" remote="uwuAOSP" />
    <project path="external/leptonica" name="platform_external_leptonica" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
    <project path="external/llama" name="platform_external_llama" remote="uwuAOSP" />
    <project path="external/llama-generated-dep" name="platform_external_llama-generated-dep" remote="uwuAOSP" />
