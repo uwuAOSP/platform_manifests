@@ -23,14 +23,8 @@ source build/envsetup.sh
 lunch uwu_devicecode-cp2a-userdebug
 ```
 
-4. Build
+4. Build an OTA package:
 
 ```bash
-m
-```
-
-Or build an OTA package:
-
-```bash
-m otapackage
+uni -j＄(nproc) otapackage
 ```
