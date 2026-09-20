@@ -23,6 +23,11 @@ source build/envsetup.sh
 lunch uwu_devicecode-cp2a-userdebug
 ```
 
+
+> [!TIP]
+> For new device bringup, run `./uwuCLI/uwu` and follow the interactive instructions.
+
+
 4. Build an OTA package:
 
 ```bash
