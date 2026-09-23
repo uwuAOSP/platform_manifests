@@ -52,7 +52,7 @@
    <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
    <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
-   <project path="packages/apps/uwuPrism" name="platform_packages_apps_uwuPrism" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
+   <project path="packages/apps/uwuPrism" name="platform_packages_apps_uwuPrism" remote="uwuAOSP" />
    <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
 
    <!-- GMS -->
