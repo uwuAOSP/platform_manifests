@@ -39,5 +39,5 @@ lunch uwu_devicecode-cp2a-userdebug
 4. Build an OTA package:
 
 ```bash
-uni -j＄(nproc) otapackage
+uni otapackage
 ```
