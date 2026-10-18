@@ -146,4 +146,6 @@
   <extend-project name="platform/system/software_defined_vehicle/vpm" groups="notdefault,uwu_sdv" />
   <extend-project name="platform/system/software_defined_vehicle/vsidl" groups="notdefault,uwu_sdv" />
   <extend-project name="platform/platform_testing" groups="notdefault,uwu_platform_testing" />
+  <extend-project name="platform/cts" groups="notdefault,uwu_cts" />
+  <extend-project name="platform/test/cts-root" groups="notdefault,uwu_cts" />
 </manifest>
