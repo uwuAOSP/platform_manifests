@@ -145,4 +145,5 @@
   <extend-project name="platform/system/software_defined_vehicle/update_manager" groups="notdefault,uwu_sdv" />
   <extend-project name="platform/system/software_defined_vehicle/vpm" groups="notdefault,uwu_sdv" />
   <extend-project name="platform/system/software_defined_vehicle/vsidl" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/platform_testing" groups="notdefault,uwu_platform_testing" />
 </manifest>
