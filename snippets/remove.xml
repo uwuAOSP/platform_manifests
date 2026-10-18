@@ -82,4 +82,46 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <extend-project name="device/generic/car" groups="notdefault,uwu_car_tv" />
+  <extend-project name="device/google/atv" groups="notdefault,uwu_car_tv" />
+  <extend-project name="device/google/trout" groups="notdefault,uwu_car_tv" />
+  <extend-project name="device/google_car" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/external/automotive-design-compose-protos" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/frameworks/opt/car/services" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/frameworks/opt/car/setupwizard" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/frameworks/opt/tv/tvsystem" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/hardware/telink/atv/refDesignRcu" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/CalendarPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Cluster" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/DataSubscriptionReference" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/DebuggingRestrictionController" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/DialerPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/DriverUIPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/LatinIME" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Launcher" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/LinkViewer" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/LocalMediaPlayer" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/MediaPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/MessengerPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Notification" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Provision" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/RadioPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/References" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/RotaryController" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/RotaryImePrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Settings" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/SettingsIntelligence" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/SystemUI" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/SystemUpdater" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/Templates" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/TemplatesPrebuilt" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/VoiceControl" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/Car/systemlibs" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/TV" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/TvFeedbackConsent" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/TvSettings" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/apps/TvSystemUI" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/inputmethods/LeanbackIME" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/providers/TvProvider" groups="notdefault,uwu_car_tv" />
+  <extend-project name="platform/packages/services/Car" groups="notdefault,uwu_car_tv" />
 </manifest>
