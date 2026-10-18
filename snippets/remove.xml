@@ -149,4 +149,34 @@
   <extend-project name="platform/cts" groups="notdefault,uwu_cts" />
   <extend-project name="platform/test/cts-root" groups="notdefault,uwu_cts" />
   <extend-project name="platform/developers/build" groups="notdefault,uwu_developers" />
+  <extend-project name="device/generic/trusty" groups="notdefault,uwu_trusty" />
+  <extend-project name="kernel/prebuilts/common-modules/trusty/6.12/arm64" groups="notdefault,uwu_trusty" />
+  <extend-project name="kernel/prebuilts/common-modules/trusty/6.6/arm64" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/authmgr" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/avb" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/cast-auth" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/confirmationui" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/gatekeeper" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/keymaster" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/keymint" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/sample" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/secretkeeper" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/app/storage" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/arm/generic-arm64" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/arm/vexpress-a15" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/common" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/desktop" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/nxp/imx7d" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/device/x86/generic-x86_64" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/external/headers" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/external/musl" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/external/trusted-firmware-a" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/external/trusty" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/host/common" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/lib" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/lk/common" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/lk/nxp" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/lk/trusty" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/user/desktop" groups="notdefault,uwu_trusty" />
+  <extend-project name="trusty/vendor/google/aosp" groups="notdefault,uwu_trusty" />
 </manifest>
