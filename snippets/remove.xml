@@ -124,4 +124,25 @@
   <extend-project name="platform/packages/inputmethods/LeanbackIME" groups="notdefault,uwu_car_tv" />
   <extend-project name="platform/packages/providers/TvProvider" groups="notdefault,uwu_car_tv" />
   <extend-project name="platform/packages/services/Car" groups="notdefault,uwu_car_tv" />
+  <extend-project name="device/google/sdv" groups="notdefault,uwu_sdv" />
+  <extend-project name="device/google/sdv_display_safety" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/external/sdv/vsomeip" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/hardware/sdv/interfaces" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/packages/services/display_safety" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/automotive_services" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/common" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/health_monitor" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/lifecycle_management" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/middleware" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/orchestration" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/platform" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/samples" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/sdv_gateway" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/service_bundles_registry" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/some_ip" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/telemetry" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/tools" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/update_manager" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/vpm" groups="notdefault,uwu_sdv" />
+  <extend-project name="platform/system/software_defined_vehicle/vsidl" groups="notdefault,uwu_sdv" />
 </manifest>
