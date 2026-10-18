@@ -2,10 +2,12 @@
 
 1. Initialize
 
+We suggest using our Repo fork for source checkouts. Without it, retrying an incomplete shallow fetch may fetch the full history, even if `--depth` is specified.
+
 We recommend initializing with the release manifests:
 
 ```bash
-repo init -u https://github.com/uwuAOSP/platform_vendor_uwu-versions.git -b main --git-lfs
+repo init --repo-url=https://github.com/UwUniverse/git-repo.git --repo-branch=main -u https://github.com/uwuAOSP/platform_vendor_uwu-versions.git -b main --git-lfs
 ```
 
 Or track our development repositories:
@@ -14,7 +16,7 @@ Or track our development repositories:
 > The development branch may be unstable.
 
 ```bash
-repo init -u https://github.com/uwuAOSP/platform_manifests.git -b uwu-17.0 --git-lfs
+repo init --repo-url=https://github.com/UwUniverse/git-repo.git --repo-branch=main -u https://github.com/uwuAOSP/platform_manifests.git -b uwu-17.0 --git-lfs
 ```
 
 2. Sync
