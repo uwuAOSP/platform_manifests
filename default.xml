@@ -53,21 +53,21 @@
   <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
   <project path="device/amlogic/yukawa-kernel" name="device/amlogic/yukawa-kernel" groups="device,yukawa,pdk" clone-depth="2" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
+  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk,notdefault,uwu_emulator" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk,notdefault,uwu_emulator" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk,notdefault,uwu_emulator" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk,notdefault,uwu_emulator" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk,notdefault,uwu_emulator" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/common/etm" name="device/google/common/etm" groups="device" clone-depth="1" />
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
-  <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
-  <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk,notdefault,uwu_cuttlefish" />
+  <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
   <project path="device/google/sdv" name="device/google/sdv" groups="swcar,pdk" clone-depth="1" />
   <project path="device/google/sdv_display_safety" name="device/google/sdv_display_safety" groups="swcar,pdk" clone-depth="1" />
   <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1"/>
@@ -699,28 +699,28 @@
   <project path="hardware/telink/atv/refDesignRcu" name="platform/hardware/telink/atv/refDesignRcu" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
-  <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.12/arm64" name="kernel/prebuilts/6.12/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.12/x86_64" name="kernel/prebuilts/6.12/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.18/arm64" name="kernel/prebuilts/6.18/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/6.18/x86_64" name="kernel/prebuilts/6.18/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk" clone-depth="1" />
+  <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.12/arm64" name="kernel/prebuilts/6.12/arm64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.12/x86_64" name="kernel/prebuilts/6.12/x86-64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.18/arm64" name="kernel/prebuilts/6.18/arm64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/6.18/x86_64" name="kernel/prebuilts/6.18/x86-64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
   <project path="kernel/prebuilts/common-modules/trusty/6.6/arm64" name="kernel/prebuilts/common-modules/trusty/6.6/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/common-modules/trusty/6.12/arm64" name="kernel/prebuilts/common-modules/trusty/6.12/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk,notdefault,uwu_cuttlefish,uwu_emulator" clone-depth="1" />
+  <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
+  <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk,notdefault,uwu_cuttlefish" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk,sysui-studio" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -891,7 +891,7 @@
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/abi-dumps/platform" name="platform/prebuilts/abi-dumps/platform" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs,notdefault,uwu_emulator" clone-depth="1" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" groups="pdk" clone-depth="1" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" />
@@ -946,7 +946,7 @@
   <project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" groups="pdk,sysui-studio" clone-depth="1" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk,notdefault,uwu_emulator" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" />
