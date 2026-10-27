@@ -360,7 +360,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" revision="refs/tags/android-security-17.0.0_r2" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppd" name="platform/external/libppd" groups="pdk" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
