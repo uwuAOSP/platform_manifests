@@ -987,7 +987,7 @@
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" />
   <project path="system/libcppbor" name="platform/system/libcppbor" groups="pdk" />
   <project path="system/libueventd-rs" name="platform/system/libueventd-rs" groups="pdk" />
-  <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
+  <project path="system/libfmq" revision="refs/tags/android-security-17.0.0_r2" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" />
