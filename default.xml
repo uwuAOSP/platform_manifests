@@ -361,7 +361,7 @@
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
   <project path="external/libpng" revision="refs/tags/android-security-17.0.0_r2" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppd" name="platform/external/libppd" groups="pdk" />
+  <project path="external/libppd" revision="refs/tags/android-security-17.0.0_r2" name="platform/external/libppd" groups="pdk" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
