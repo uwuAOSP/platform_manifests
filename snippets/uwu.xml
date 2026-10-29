@@ -40,8 +40,10 @@
    <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="uwuAOSP" />
    <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="uwuAOSP" />
+   <project path="frameworks/proto_logging" name="platform_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="uwuAOSP" />
    <project path="packages/modules/Nfc" name="platform_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="uwuAOSP-Security" />
+   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="uwuAOSP" />
    <project path="packages/modules/Uwb" name="platform_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="uwuAOSP-Security" />
    <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP-Security" />
    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="uwuAOSP-Security" />
