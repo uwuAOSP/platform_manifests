@@ -78,6 +78,7 @@
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/chre" />
   <remove-project name="platform/system/core" />
