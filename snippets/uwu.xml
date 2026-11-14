@@ -24,8 +24,6 @@
    <project path="external/runa" name="platform_external_runa" remote="uwuAOSP" />
    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="uwuAOSP" />
    <project path="external/leptonica" name="platform_external_leptonica" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
-   <project path="external/llama" name="platform_external_llama" remote="uwuAOSP" />
-   <project path="external/llama-generated-dep" name="platform_external_llama-generated-dep" remote="uwuAOSP" />
    <project path="external/tesseract" name="platform_external_tesseract" remote="uwuAOSP" revision="refs/heads/uwu-16.2" />
    <project path="frameworks/av" name="platform_frameworks_av" groups="pdk,sysui-studio" remote="uwuAOSP" />
    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="uwuAOSP" />
@@ -56,7 +54,6 @@
    <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
    <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="uwuAOSP" />
-   <project path="packages/apps/uwuAICore" name="platform_packages_apps_uwuAICore" remote="uwuAOSP" />
    <project path="packages/apps/uwuClocks" name="platform_packages_apps_uwuClocks" remote="uwuAOSP" />
    <project path="packages/apps/uwuPrism" name="platform_packages_apps_uwuPrism" remote="uwuAOSP" />
    <project path="packages/apps/uwuSettingsExt" name="platform_packages_apps_uwuSettingsExt" remote="uwuAOSP" />
