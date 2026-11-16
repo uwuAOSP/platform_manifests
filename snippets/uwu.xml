@@ -4,10 +4,6 @@
 	   fetch="https://github.com/uwuAOSP"
 	   revision="refs/heads/uwu-17.0" />
    
-   <remote name="UwUniverse"
-           fetch="https://github.com/UwUniverse"
-           revision="refs/heads/uwu-17.0" />
-   
    <project path="build/make" name="platform_build_make" groups="pdk,sysui-studio" remote="uwuAOSP">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -41,11 +37,11 @@
    <project path="vendor/uwu-prebuilts" name="platform_vendor_uwu-prebuilts" remote="uwuAOSP" />
    
    <project path="uwu-sdk" name="platform_uwu-sdk" remote="uwuAOSP" />
-   <project path="uwuCLI" name="uwuCLI" remote="UwUniverse" />
+   <project path="uwuCLI" name="uwuCLI" remote="uwuAOSP" />
 
    <project path="packages/apps/CatShare" name="platform_packages_apps_CatShare" remote="uwuAOSP" />
    <project path="packages/apps/ColumbusService" name="platform_packages_apps_ColumbusService" remote="uwuAOSP" />
-   <project path="packages/apps/Kotj" name="Kotj" remote="UwUniverse" revision="refs/heads/main" />
+   <project path="packages/apps/Kotj" name="Kotj" remote="uwuAOSP" />
    <project path="packages/apps/LyricFetchExt" name="platform_packages_apps_LyricFetchExt" remote="uwuAOSP" />
    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="uwuAOSP" />
    <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="uwuAOSP" />
